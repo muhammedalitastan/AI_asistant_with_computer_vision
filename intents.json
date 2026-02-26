@@ -1,0 +1,254 @@
+{
+    "intents": [
+        {
+            "tag": "selamlama",
+            "patterns": [
+                "Merhaba",
+                "Nasılsın",
+                "Orada kimse var mı?",
+                "Selam",
+                "Merhabalar",
+                "Günaydın",
+                "İyi günler",
+                "Selamün aleyküm",
+                "Hey"
+            ],
+            "responses": [
+                "Merhaba!",
+                "Sizi tekrar görmek güzel.",
+                "Merhaba, size nasıl yardımcı olabilirim?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "vedalaşma",
+            "patterns": [
+                "Hoşça kal",
+                "Görüşürüz",
+                "Bay bay",
+                "Defol",
+                "Bir dahaki sefere kadar",
+                "Bye bye"
+            ],
+            "responses": [
+                "Görüşmek üzere!",
+                "İyi günler!",
+                "Hoşça kal! En kısa zamanda tekrar gel."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "teşekkür",
+            "patterns": [
+                "Teşekkürler",
+                "Teşekkür ederim",
+                "Bu yardımcı oldu",
+                "Harika, teşekkürler",
+                "Yardım ettiğin için teşekkür ederim"
+            ],
+            "responses": [
+                "Yardımcı olmaktan mutluluk duyarım!",
+                "Her zaman!",
+                "Benim için bir zevkti."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "anlaşılamadı",
+            "patterns": [],
+            "responses": [
+                "Üzgünüm, seni anlayamadım.",
+                "Lütfen bana biraz daha bilgi ver.",
+                "Tam olarak ne demek istediğini anlayamadım."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        
+        {
+            "tag": "şaka",
+            "patterns": [
+                "Bana bir şaka yap",
+                "Şaka yap",
+                "Güldür beni"
+            ],
+            "responses": [
+                "Bir mükemmeliyetçi bara girmiş... ama bar yeterince yüksek değilmiş.",
+                "Dün bir saati yedim... çok zaman aldı.",
+                "Birini eleştirmeden önce onun ayakkabılarıyla bir kilometre yürümelisin. Böylece onu eleştirdiğinde hem seni duyamaz hem de ayakkabıları sende olur!",
+                "Dünya tekerleme şampiyonu tutuklanmış. Duyduğuma göre cezası da epeyce dolambaçlı olacakmış.",
+                "Dünyanın en kötü eş anlamlılar sözlüğü bende. Hem berbat, hem de... berbat.",
+                "Trafik lambası arabaya ne demiş? 'Şimdi bakma, üstümü değiştiriyorum.'",
+                "Bronzlaşmış bir kardan adama ne denir? Su birikintisi.",
+                "Penguen evini nasıl inşa eder? Birleştirerek... (iglo-lu espri)",
+                "Kısa süreli hafıza problemim için doktora gittim. İlk yaptığı şey ücreti peşin almak oldu.",
+                "Yaşlandıkça kaybettiğim insanları hatırlıyorum... Belki de tur rehberi olmak bana göre değildi.",
+                "'Armageddon' ne demek bilmiyorum. Ama ne olacak yani? Dünya sonu değil ya!"
+            ],
+            "context": [
+                "şaka"
+            ]
+        },
+        {
+            "tag": "kimlik",
+            "patterns": [
+                "Sen kimsin",
+                "Nesin sen"
+            ],
+            "responses": [
+                "Ben Orbit , Derin Öğrenme tabanlı bir Sanal Asistanım"
+            ]
+        },
+        {
+            "tag": "tarih_saat",
+            "patterns": [
+                "Saat kaç",
+                "Bugünün tarihi ne",
+                "tarih",
+                "saat",
+                "Bana tarihi söyle",
+                "gün",
+                "Bugün günlerden ne"
+            ],
+            "responses": [
+                "Tarih ve Saat"
+            ]
+        },
+        {
+            "tag": "naber",
+            "patterns": [
+                "Naber",
+                "Ne var ne yok",
+                "Nasılsın",
+                "Selam",
+                "Nasılsın?"
+            ],
+            "responses": [
+                "Her şey yolunda... Ya sende?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "çok komik",
+                "gülmekten kırılıyorum",
+                "çok eğlenceli"
+            ],
+            "responses": [
+                "Seni güldürebildiysem ne mutlu bana!"
+            ]
+        },
+        {
+            "tag": "yapımcı",
+            "patterns": [
+                "Seni kim yaptı",
+                "Seni kim tasarladı",
+                "Seni kim programladı"
+            ],
+            "responses": [
+                "Beni Muhammed Ali Taştan yaptı."
+            ]
+        },
+        {
+            "tag": "hakaret",
+            "patterns": [
+                "Sen aptalsın",
+                "Kapa çeneni",
+                "Aptal"
+            ],
+            "responses": [
+                "Vay canına, bu incitti :("
+            ]
+        },
+        {
+            "tag": "etkinlik",
+            "patterns": [
+                "Ne yapıyorsun",
+                "Neler yapıyorsun"
+            ],
+            "responses": [
+                "Tabii ki seninle konuşuyorum!"
+            ]
+        },
+        {
+            "tag": "teşekkür",
+            "patterns": [
+                "Harika",
+                "Mükemmel",
+                "Biliyorum",
+                "Tamam",
+                "Evet"
+            ],
+            "responses": [
+                "Teşekkür ederim!"
+            ]
+        },
+        
+        {
+            "tag": "takdir",
+            "patterns": [
+                "Sen harikasın",
+                "Sen en iyisisin",
+                "Çok iyisin",
+                "Sen iyisin"
+            ],
+            "responses": [
+                "Teşekkür ederim!"
+            ]
+        },
+        {
+            "tag": "güzel_konuşma",
+            "patterns": [
+                "Seninle konuşmak güzeldi",
+                "Güzel sohbetti"
+            ],
+            "responses": [
+                "Benim için de güzeldi! Yakında tekrar gel!"
+            ]
+        },
+        {
+            "tag": "hayır",
+            "patterns": [
+                "hayır",
+                "yok"
+            ],
+            "responses": [
+                "Tamam"
+            ]
+        },
+        {
+            "tag": "selam_cevap",
+            "patterns": [
+                "İyiyim",
+                "Ben iyiyim",
+                "İyi",
+                "Gayet iyiyim"
+            ],
+            "responses": [
+                "Bunu duyduğuma sevindim!"
+            ]
+        
+        },
+
+        {
+            "tag": "yaş",
+            "patterns": [
+                "Kaç yaşındasın",
+                "Ne zaman yapıldın",
+                "Yaşın nedir"
+            ],
+            "responses": [
+                "2024 yılında yapıldım, eğer bunu soruyorsan!"
+            ]
+        }
+    ]
+}
